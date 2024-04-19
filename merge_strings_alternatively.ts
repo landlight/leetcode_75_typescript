@@ -1,3 +1,8 @@
+/***
+ * Time Complexity: 0(m + n)2 if we use array instead of string will change the time complexity to 0(m + n)
+ * Space Complexity: 0(m + n)
+ ***/
+
 function mergeAlternately(word1: string, word2: string): string {
   if (!word1) {
     return word2;
